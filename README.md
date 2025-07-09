@@ -4,7 +4,7 @@ This is a simple web server hosted locally using the Apache HTTP Docker image.
 ## Steps to run:
 Build the dockerfile into a docker image.
 ```
-docker build -t <image_name>
+docker build -t <image_name> .
 ```
 Start a container with the docker image in detached (-d) mode and mapping a host port to a container port.
 ```
